@@ -1,0 +1,12 @@
+Thumbs.db
+Desktop.ini
+*.log
+*.log.*
+*.tmp
+*.bak
+*.swp
+/bin/
+/obj/
+.vscode/
+.env
+.env.*
