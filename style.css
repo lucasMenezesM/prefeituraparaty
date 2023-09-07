@@ -142,6 +142,30 @@ ul{
     border-radius: 9px;
 }
 
+#galeria div{
+    font-size: 20px;
+}
+
+#galeria a, #galeria-carrosel a{
+    color: black;
+    background-color: rgb(245, 192, 2);
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+#galeria a:hover, #galeria-carrosel a:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+}
+
+#galeria a:active, #galeria-carrosel a:active{
+    background-color: rgb(245, 192, 2);
+}
+
 #secao-carrosel .texto-galeria-carrosel p{
     text-align: center;
 }
