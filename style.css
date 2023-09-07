@@ -133,6 +133,19 @@ ul{
     opacity: 1;
 }
 
+#galeria-carrosel{
+    max-width: 900px;
+}
+
+#galeria-carrosel img{
+    border: 5px solid rgb(245, 192, 2);
+    border-radius: 9px;
+}
+
+#secao-carrosel .texto-galeria-carrosel p{
+    text-align: center;
+}
+
 footer{
     background-color: rgb(245, 192, 2);
     text-align: center;
@@ -195,5 +208,9 @@ footer .social-medias img{
     header a{
         font-size: 15px;
         padding: 0 8px;
+    }
+
+    header div{
+        margin: 0 15px;
     }
 }
